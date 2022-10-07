@@ -7,7 +7,7 @@ const siteMetadata = {
   theme: 'system', // system, dark or light
   siteUrl: 'https://giolaq.dev',
   siteRepo: 'https://github.com/joaobiriba/giolaqblog',
-  siteLogo: '/static/images/logo.png',
+  siteLogo: '/static/favicons/android-chrome-512x512.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'glaquidara@gmail.com',
