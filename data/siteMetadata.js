@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'GioLaq.dev',
+  title: 'GioLaq',
   author: 'Giovanni Laquidara',
   headerTitle: 'GioLaq.Dev',
   description: 'Giovanni Laquidara web space, all opinions here are my own',
