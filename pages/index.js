@@ -7,6 +7,8 @@ import formatDate from '@/lib/utils/formatDate'
 import { RoughNotation } from 'react-rough-notation'
 import NewsletterForm from '@/components/NewsletterForm'
 import SocialIcon from '@/components/social-icons'
+import Image from '@/components/Image'
+
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -21,6 +23,13 @@ export default function Home({ posts }) {
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+          <Image
+            src="/static/images/avatar.png"
+            width="128px"
+            height="128px"
+            alt="avatar"
+            className="h-10 w-10 rounded-full"
+          />
           <div className="">
             <h1 className="mb-2 text-2xl font-extrabold leading-11 tracking-tight text-slate-900 dark:text-slate-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
               I'm <span className="text-primary-color dark:text-primary-color-dark">Giovanni</span>
