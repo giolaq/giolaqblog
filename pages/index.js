@@ -6,7 +6,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
 import { RoughNotation } from 'react-rough-notation'
 import NewsletterForm from '@/components/NewsletterForm'
-
+import SocialIcon from '@/components/social-icons'
 const MAX_DISPLAY = 5
 
 export async function getStaticProps() {
@@ -80,6 +80,16 @@ export default function Home({ posts }) {
               run 🏃‍♂️{' '}
             </RoughNotation>
           </p>
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">You can find me on:</p>
+
+          <div className="mt-10 mb-4 flex flex-col items-center justify-between md:flex-row">
+            <div className="mb-3 flex space-x-4">
+              <SocialIcon kind="github" href={siteMetadata.github} size="5" />
+              <SocialIcon kind="instagram" href={siteMetadata.instagram} size="5" />
+              <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="5" />
+              <SocialIcon kind="twitter" href={siteMetadata.twitter} size="5" />
+            </div>
+          </div>
         </div>
 
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
