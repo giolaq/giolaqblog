@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'GioLaq',
   author: 'Giovanni Laquidara',
   headerTitle: 'GioLaq.Dev',
-  description: 'Giovanni Laquidara web space, all opinions here are my own',
+  description: 'Welcome to my web space! Here all opinions here are my own',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://giolaq.dev',
