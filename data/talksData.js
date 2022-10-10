@@ -17,7 +17,7 @@ const talksData = [
     title: 'Whats new in the Amazon Appstore',
     date: '2-Aug-2022',
     description: `Droidcon Berlin 2022 - Amazon Appstore reaches millions of customers worldwide on Fire TV, Fire tablets, mobile platforms, and now Windows 11 devices. Join us to discover the latest developer tools for growing your user base, increasing ROI, and building immersive customer experiences.`,
-    imgSrc: '/static/images/dcberlin22.png',
+    imgSrc: '/static/images/dcnberlin22.png',
     href: 'https://www.droidcon.com/2022/08/02/whats-new-in-amazon-appstore/',
   },
   {
