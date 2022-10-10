@@ -171,6 +171,9 @@ export default function Home({ posts }) {
             <div className="mt-2 justify-center"></div>
           </div>
         </div>
+        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          Here all opinions are my own:
+        </p>
 
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
