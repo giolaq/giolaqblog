@@ -14,6 +14,13 @@ const talksData = [
     href: 'https://www.youtube.com/watch?v=Q7xWnMj9peQ',
   },
   {
+    title: 'Whats new in the Amazon Appstore',
+    date: '2-Aug-2022',
+    description: `Droidcon Berlin 2022 - Amazon Appstore reaches millions of customers worldwide on Fire TV, Fire tablets, mobile platforms, and now Windows 11 devices. Join us to discover the latest developer tools for growing your user base, increasing ROI, and building immersive customer experiences.`,
+    imgSrc: '/static/images/dcberlin22.png',
+    href: 'https://www.droidcon.com/2022/08/02/whats-new-in-amazon-appstore/',
+  },
+  {
     title: 'Develop a Video Editing app in 5 simple steps | Conf42 Mobile 2022',
     date: '17-Feb-2022',
     description: `In this talk the audience will learn how to develop an Android app to perform Video Editing.
