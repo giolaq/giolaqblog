@@ -1,5 +1,37 @@
 const talksData = [
   {
+    title: 'Sviluppa un app Android compatibile con Windows 11・Dev WorkSpace 36',
+    date: '27-Sep-2022',
+    description: `Da Developer quanto hai sognato sviluppare un'app mobile che possa anche girare su Desktop? Sai che chi ha già installato Windows 11 può eseguire app Android nativamente? Come possiamo sfruttare anche questa nuova piattaforma col minimo sforzo?
+    In questa sessione vedremo come poter sviluppare un app Android compatibile con Windows 11.
+  • Impareremo come adattare la UI per utilizzare al meglio tutto lo spazio disponibile del tuo monitor o dello schermo del tuo laptop.
+  • Come gestire in maniera ottimale il ridimensionamento della finestra della tua app (perché sarà simile a tutte le app del tuo desktop!).
+  • Come utilizzare mouse e tastiera per dare i super poteri a chi utilizza la tua app.
+  • Come usare le notifiche e renderle native su Desktop.
+  • Ed altro ancora!
+ La tua app potrà, infine, essere distribuita tramite l'Amazon Appstore, l'unico store ufficiale di app Android su Win11.`,
+    imgSrc: '/static/images/wsa.png',
+    href: 'https://www.youtube.com/watch?v=Q7xWnMj9peQ',
+  },
+  {
+    title: 'Develop a Video Editing app in 5 simple steps | Conf42 Mobile 2022',
+    date: '17-Feb-2022',
+    description: `In this talk the audience will learn how to develop an Android app to perform Video Editing.
+    We will use the services provided by Huawei HMS Core to create in 5 steps a cool app capable to give your user the power of editing awesome videos with the most modern capabilities, custom UI, stickers, AI filters and other cool features
+    We all know video content is the king nowadays and we all know as a developer that building a Video Editing app could be hard, from design to development. Using these SDK will make this process trivial.`,
+    imgSrc: '/static/images/videoeditapp.png',
+    href: 'https://www.youtube.com/watch?v=QTSVYFubJ9c',
+  },
+  {
+    title: 'The job of Partner Engineering',
+    date: '14-Dec-2021',
+    description: `Developer relations and partner engineering teams often have a lot of crossover. Both are tasked with helping software engineers and either discipline provides good training for the other.
+    In this talk from DevRelCon 2021, Giovanni teaches the fundamentals of partner engineering , mixing psychology,
+    tech stacks, and soft skills inspired by his own experience performing the role.`,
+    imgSrc: '/static/images/jobpartnerengineering.png',
+    href: 'https://www.youtube.com/watch?v=9sEhQGd7WhA',
+  },
+  {
     title: 'Programmiamo il Web Immersivo con WebXR',
     date: '04-Mar-2021',
     description: `Presente e futuro della tecnologia che ci permetterà di creare mondi virtuali supportati dal Browser.
